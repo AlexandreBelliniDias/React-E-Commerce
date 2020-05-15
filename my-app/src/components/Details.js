@@ -47,7 +47,7 @@ export default class Details extends Component {
 
 const Button = styled.button`
 text-transform:capitalize;
-font-size: 1.4rem;
+font-size: 2.4rem !important;
 background: transparent;
 border:0.05rem solid var(--lightBlue);
 color: var(--lightBlue);

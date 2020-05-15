@@ -55,12 +55,15 @@ const Nav = styled.nav`
 background: var(--mainBlue);
 .nav-link{
     color:var(--mainWhite)!important;
-    font-size:1.3rem;
+    font-size:2.1rem !important;
+}
+.nav-link:hover{
+    color: var(--lightBlue) !important;
 }
 `
 const MyCartButton = styled.button`
 text-transform:capitalize;
-font-size: 1.4rem;
+font-size: 2.4rem !important;
 background: transparent;
 border:0.05rem solid var(--lightBlue);
 color: var(--lightBlue);
@@ -68,7 +71,7 @@ border-radius: 0.5rem;
 padding: 0.2rem 0.5rem;
 cursor:pointer;
 margin:0.2 rem 0.5rem 0.2rem 0;
-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out !important;
 &:hover{
     background:var(--lightBlue);
     color:var(--mainWhite);

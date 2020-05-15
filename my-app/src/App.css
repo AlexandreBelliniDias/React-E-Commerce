@@ -9,10 +9,11 @@ body{
   font-family:'Oswald', sans-serif !important;
   background: var(--mainWhite) !important ;
   color: var(--mainDark) !important;
+  font-size: 18px !important;
 }
 .text-title{
   font-family: 'Noto Sans', sans-serif;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.3rem !important;
   text-transform: uppercase;
 }
 .text-blue{
@@ -37,4 +38,10 @@ body{
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--mainYellow);
+}
+h5{
+  font-size: 2rem !important;
+}
+p{
+  font-size: 1.8rem !important;
 }
